@@ -30,7 +30,7 @@
 # res=[]
 
 # for i in range(len(my_list)):
-#     if min<my_list[i]<max:
+#     if min<=my_list[i]<=max:
 #         res.append(i)
 
 # print(res)
