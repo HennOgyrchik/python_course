@@ -12,10 +12,10 @@ transormed_values = list(map(transformation, values))
 копией values.
 '''
 
-# values = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
-# transformation=lambda y: y
-# transormed_values = list(map(transformation, values))
-# print(transormed_values)
+values = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+transformation=lambda y: y
+transormed_values = list(map(transformation, values))
+print(transormed_values)
 
 '''
 Планеты вращаются вокруг звезд по эллиптическим орбитам.

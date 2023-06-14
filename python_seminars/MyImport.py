@@ -1,3 +1,5 @@
+import os
+
 def MyPow (a,b):
     if b==1:
         return a
@@ -16,3 +18,5 @@ def MySum (a,b):
         return MySum(a,b-1)+1
     else:
         return 0
+    
+#семинар 8
